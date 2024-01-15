@@ -1,6 +1,6 @@
 # ManagerValue
 
-Below is a glossary that explains MgrValue.xlsx, each item at a time. Each statistic is for the season (year) the individual managed the team
+Below is a glossary that explains MgrValue.xlsx, each item at a time. Each statistic is for the season (year) the individual managed the team. All data comes from Sports Reference -- specifically, Baseball Reference.
 
 **Year** - The year the individual managed that team
 
@@ -18,7 +18,7 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **Wpost**, **Lpost**, and **W-L%post** - Wins, losses, and win-loss percentage in the postseason
 
-**Challenges** - The number of times the manager challenged a call made by an umpire on the field
+**Challenges** - The number of times the manager challenged a call made by an umpire on the field. _Challenges did not exist before 2014._
 
 **Overturned** and **Overturn%** - The number of times a manager's challenge plea was corrected, as well as the percentage of challenges that were overturned
 
