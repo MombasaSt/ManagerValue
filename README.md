@@ -10,17 +10,15 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **Rk** - The order in which managers managed a team. For instance, in 2022, Tony La Russa managed the team first (Rk of 1), was fired, and replaced by Miguel Cairo for the rest of the season (Rk of 2).
 
-**W**, **L**, **T**, and **W-L%** - Wins, losses, ties, and win-loss percentage; the latter is determined by [W / (W+L)]**
-
-**G** - Total games the manager managed
+**W**, **L**, **T** - Wins, losses, and ties
 
 **Finish** - What place in the team's division that team finished
 
-**Wpost**, **Lpost**, and **W-L%post** - Wins, losses, and win-loss percentage in the postseason
+**Wpost**, **Lpost** - Wins and losses in the postseason
 
 **Challenges** - The number of times the manager challenged a call made by an umpire on the field. _Challenges did not exist before 2014._
 
-**Overturned** and **Overturn%** - The number of times a manager's challenge plea was corrected, as well as the percentage of challenges that were overturned
+**Overturned** - The number of times a manager's challenge plea was correct
 
 **Ejections** - The number of times the manager was ejected from the game, usually for arguing with an umpire
 
@@ -28,23 +26,19 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **St2ndAtt** - Times a runner attempted to steal 2nd base, regardless of success
 
-**St2ndRate** - St2ndAtt / St2ndCh, as a percentage
+**St2ndSuc** - Times a runner successfully stole 2nd base
 
-**St2ndRate+** - How good the rate of second base stealing was as opposed to the league average; 100 is average, above is better, below is worse
+**St2ndCh** - The number of plate appearances where 3rd base was not occupied by a runner and 2nd base was
 
-**St3rdCh** - The number of plate appearances where 3rd base was not occupied by a runner and 2nd base was
+**St2ndAtt** - Times a runner attempted to steal 3rd base, regardless of success
 
-**St3rdAtt** - Times a runner attempted to steal 3rd base, regardless of success
+**St2ndSuc** - Times a runner successfully stole 3rd base
 
-**St3rdRate** - St3rdAtt / St3rdCh, as a percentage
+**SacBuntCh** - Opportunities for a sacrifice bunt, or where a bunt by the current hitter could move a runner to an unoccupied base. This includes a runner on first but not second OR a runner on second but not third.
 
-**St3rdRate+** - How good the rate of third base stealing was as opposed to the league average; 100 is average, above is better, below is worse
+**SacBuntAtt** - Times a batter attempted a sacrifice bunt, regardless of success
 
-**SacCh** - Opportunities for a sacrifice bunt, or where a bunt by the current hitter (not including pitchers) could move a runner to an unoccupied base. This includes a runner on first but not second OR a runner on second but not third.
-
-**SacAtt** - Times a batter attempted a sacrifice bunt, regardless of success
-
-**SacRate** - SacAtt / SacCh, as a percentage
+**SacBuntSuc** - SacAtt / SacCh, as a percentage
 
 **SacRate+** - How the rate of sacrifice bunts compared to the league average; 100 is average, above is more, below is less
 
@@ -52,18 +46,11 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **IBB** - The amount of batters a manager faced and intentionally walked
 
-**IBBRate** - IBB / PA, as a percentage
-
-**IBBRate+** - How the rate of intentional walks compared to the league average; 100 is average, above is more, below is less
-
 **PH/G** - The amount of pinch [substitution] hitters used by a manager in a game on average
-
-**PH/G+** - How the manager's PH/G compared to the league average; 100 is average, above is more, below is less
 
 **PR/G** - The amount of pinch [substitution] runners used by a manager in a game on average
 
-**PR/G+** - How the manager's PR/G compared to the league average; 100 is average, above is more, below is less
-
 **P/G** - The amount of pitchers used by a manager in a game on average
 
-**P/G+** - How the manager's P/G compared to the league average; 100 is average, above is more, below is less
+**tWAR** - The team's total Wins Above Replacement on the season. All player's WAR - or what is effectively their value compared to the average bench player - added together makes the team's.
+  An explanation of WAR can be found here: https://www.mlb.com/glossary/advanced-stats/wins-above-replacement
