@@ -8,7 +8,7 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **Team** - The team the individual managed
 
-**ManagerOrder** - The order in which managers managed a team. For instance, in 2022, Tony La Russa managed the team first (Rk of 1), was fired, and replaced by Miguel Cairo for the rest of the season (Rk of 2).
+**ManagerOrder** - The order in which managers managed a team. For instance, in 2022, Tony La Russa managed the team first (1st), was fired, and replaced by Miguel Cairo for the rest of the season (2nd).
 
 **Wins, Losses, Ties** - The team's record of won, lost, and tied games
 
