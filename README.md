@@ -1,6 +1,8 @@
 # ManagerValue
 
-Below is a glossary that explains MgrValue.xlsx, each item at a time. Each statistic is for the season (year) the individual managed the team. All data comes from Sports Reference -- specifically, Baseball Reference.
+Below is a glossary that explains MgrValue.xlsx, each item at a time. Each statistic is for the season (year) the individual managed the team. All seasons where a club had a manager fired midseason are excluded.
+
+All data from **Manager** to **TeamWAR** is from Baseball Reference; all data after that is from FanGraphs. See the bottom of the ReadMe for further glossary reading.
 
 **Year** - The year the individual managed that team
 
@@ -8,13 +10,13 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **Team** - The team the individual managed
 
-**ManagerOrder** - The order in which managers managed a team. For instance, in 2022, Tony La Russa managed the team first (1st), was fired, and replaced by Miguel Cairo for the rest of the season (2nd).
-
-**Wins, Losses, Ties** - The team's record of won, lost, and tied games
+**Wins, Losses, and Ties** - The team's record of won, lost, or tied games
 
 **DivisionFinish** - What place in the team's division that team finished
 
 **PostseasonWins**, **PostseasonLosses** - Wins and losses in the postseason
+
+**WorldSeriesWinner** - Y if the team won the World Series that season
 
 **ChallengesAttempted** - The number of times the manager challenged a call made by an umpire on the field. _Challenges did not exist before 2014._
 
@@ -50,5 +52,18 @@ Below is a glossary that explains MgrValue.xlsx, each item at a time. Each stati
 
 **PitchersPerGame** - The amount of pitchers used by a manager in a game on average
 
-**TeamWAR** - The team's total Wins Above Replacement on the season. All player's WAR - or what is effectively their value compared to the average bench player - added together makes the team's.
-  An explanation of WAR can be found here: https://www.mlb.com/glossary/advanced-stats/wins-above-replacement
+**TeamWAR** - The team's total Wins Above Replacement on the season. All player's WAR - or what is effectively their value compared to the average bench player - added together makes the team's. Note that Baseball Reference and FanGraphs calculate WAR differently; the dataset uses Baseball Reference's methods.
+
+**AvgPHLeverageIndex** - The average leverage index of the situation when a pinch hitter was substituted in. Leverage index is a measure of how much a game is "on the line" at a given moment, where 0.85 is low leverage and 2.0+ is high leverage.
+
+**BattingClutch** - How "clutch" a team is hitting-wise, or how much better (or worse) they are in high leverage hitting situations than a context-neutral environment. This is calculated by taking each player, dividing their win probability added (WPA) by their individual leverage index, subtracting the league-wide equivalent, and adding all of these up.
+
+**ShutdownsPerGame** - A shutdown is when a reliever accumulates at least 0.06 Win Probability Added (WPA) over a single game. WPA is a measure of the expectancy of a team to win in the given situation.
+
+**MeltdownsPerGame** - A meltdown is when a reliever's Win Probability Added (WPA) amounts to -0.06 or less over a single game. WPA is a measure of the expectancy of a team to win in the given situation.
+
+**PitchingClutch** - How "clutch" a team is pitching-wise, or how much better (or worse) they are in high leverage pitching situations than a context-neutral environment. This is calculated by taking each player, dividing their win probability added (WPA) by their individual leverage index, subtracting the league-wide equivalent, and adding all of these up.
+
+Wins Above Replacement (WAR): https://www.mlb.com/glossary/advanced-stats/wins-above-replacement
+Leverage Index (LI): https://library.fangraphs.com/misc/li/
+Win Probability Added (WPA): https://library.fangraphs.com/misc/wpa/
